@@ -1,0 +1,16 @@
+[ MANIFEST PROPERTIES ]
+
+{  
+    "name":"App Ana PWA",       //Long name of app (e.g on Splashscreen)
+    "short_name":"App",         //Short name of app(e.g. below icon)
+    "start_url":"/index.html",  //Wich name of app (e.g below icon)
+    "scope":".",                //wich pages are included in PWA Experience
+    "display":"standalone", "fullscreen", "browser", "minimal-ui"     //Should it look like a standalone app?
+    "background_color":"#fff",   //Background whilst loading & on Splashscreen
+    "theme_color":"#3F51B5"     //    Theme color (e.g on top bar in task Switcher)
+    "description":"Keep running until you're wake up" //Description ( e.g as favorite)
+    "dir","ltr" //Read direction of your app
+    "lang":"en-US" // Main language of app
+    "orientation":"portait-primary" // set (and enforce) default on homescreen options = "any","portrait","landscape" "portrait-primary"
+    "icons":[...]   //Configure icons (e.g on homescreen)
+}
