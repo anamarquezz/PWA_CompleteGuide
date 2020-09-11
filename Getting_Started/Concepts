@@ -1,0 +1,148 @@
+[What is a PWA] : { Enhanced web apps to look and feel like native apps }
+        -Is a term referring to a couple of features  
+            you can add to any web application to any web page
+            running in the browser therefor to enhanced 
+    - You Progresibly enhanced Existing web page to feel and work more like native apps, not only response
+        design so there is look on diveces.
+        > like still working if your offline.
+        > Having icon in the home screen.
+        > Accesing to device camera.
+        > Acessint to location.
+        > Sincronice data in the background.
+        > a way who also run in older browsers.
+    - There are 3 Main Words to can sumarrize a PWA 
+        [1] They should be reliable { load fast and privide ofline functionality [at least part of the application]}    
+        [2] They should be Fast { Respond quickly to user actions}
+            It shoulds:
+                - React to user input.
+                - Provide animations.
+                - Able to access native divices features.
+        [3] They shoul be Engaging { Feel like a native app on mobile devices }
+                - Want the user get into the app.
+                - Offer features like push notifications to informed, even is the application is closed.
+
+WHY build ONE?
+    [1] 
+    [2]
+
+
+[PWAs vs Native Mobile Apps]
+    > Use
+        - Native Apps: 87%
+        - Mobile Web: 13%
+    > Why people are in native apps
+        - Push Notification brinf users back
+        - Home Screen Icons make Acess Easy.
+        - Access Native Device Feature like Camara.
+        - posibily Work Offline.
+
+    Efford to build an Native App.
+        - Kean two different Languages.
+        - Time to spend Users Top 3 Apps on DEvice.
+        
+    [ Reach of Apss vs Mobile Web: ]
+        Apps: 3.3 %  
+        Mobile Web: 8.9 %
+
+[PWAs vs Native Mobile Apps vs "Traditional" Web Pages]
+    _______________________________________________________________________________________________
+    |                               |       CAPABILITY            |        REACH                  |
+    |_______________________________|_____________________________|_______________________________|
+    |      NATIVE APPS              | - Access Device Laverage Os | - Top 3 Apps Win, Rest Loses  |
+    |                               |                             |                               |
+    |      TRADITIONAL WEB APPS     | - Device Feature Access.    | - High Reach, No Borders      |
+    |                               |                             |                               |
+    |      PROGRESIVE WEB APPS      | - Access Device Feautres    | - High Reach, No Borders      |
+    |                               |     Leverage OS             | 
+    |_______________________________|_____________________________|_______________________________|
+    
+
+[PWA Core Building Blocks]
+
+                                 _________________________________     
+                                |                                 |
+                                |     Service Workers             |
+                                |_________________________________|
+    __________________________   _______________    ______________   _________________________________
+    |                        |  |               |  |              |  |                                |
+    |  Background Sync       |  |    Caching/   |  |              |  |             WEB PUSH           |
+    |  Sync User Data in the |  |    Offline    |  | Enable othe  |  |  Mobile-like Push Notification |                             |
+    |    Background          |  |    Support    |  | PWA Features |  |                                |
+    |________________________|  |_______________|  |______________|  |________________________________|
+                                ____________________________________
+                                |                                  |
+                                |   application Manigest           |
+                                |   Allows Addition to Home Screen |
+                                |__________________________________|   
+    _________________________                                         ________________________________________
+    |                        |                                        |                                       |
+    |   Geolocation API      |                                        |             MEDIA API                 |
+    |   Access User Location |                                        |  Acess Device Camera and Microphone   |
+    |________________________|                                        |     and Microphone                    |
+                                                                      |_______________________________________|
+
+[PWAs and SPAs ( Single Page Application) ?]
+____________________________________                    ____________________________________________________
+|                                   |                  |                                                    |
+|           SPA                     |                  |          PWA                                       |          
+|_________________________________  |                  |____________________________________________________|
+
+| Powered by JAvascript              |                  | Uses a lot of Javascript  ( but works without it )|
+
+| Highly REactive (to user input)    |                  |  Aims to have high Reactivity                     |                  
+
+| Only one HTML File sent to Browser |                  |  Works with multiple Files                        |
+
+                    SPA can become grat PWAs but you can also turn ANY other web page/app into PWA
+______________________________________________________________________________________________________________
+
+
+[ WHAT IS A PROGRESSIVE ENHANCEMENT ?]
+
+__________________________              __________________________            __________________________
+|STARGING POINT:         |              |      NEAR FUTURE        |          |      NEAR FUTURE        |   
+|________________________|              |_________________________|          |_________________________|
+
+__________________________              __________________________          __________________________
+| EXISTING (LEGACY)  APP |
+|                        |                Add some Features                     Use Multiple PWA
+|   Old Technology, maybe|
+|    needs to support    |
+|    very old browsers   |
+|________________________|             __________________________           __________________________
+
+
+__________________________             __________________________           __________________________
+| EXISTING "MODERN  APP  |
+|                        |
+|   Moder Technology,    |              Implement Some Core                     Completely Convert to
+|    only needs to       |              PWA Features                                PWA
+|    support modern      |
+|        Browsers        |
+|________________________|             __________________________           __________________________
+
+
+__________________________             __________________________           __________________________
+| UPCOMING PROHECT       |               Fully implement as PWA                 
+|                        |                  right from the Start                Complete PWA
+|________________________|             __________________________           __________________________
+
+
+
+>>>>> [ COUSER OUTLINE]
+
+[ GETTING STARTED ]  --->  [ APPLICATION MANIFEST  ] --->   [ SERVICE WORKER BASICS ]  ----> [ PROGMISSE & FECH API ]
+
+    ---->  [ SERVICE WORKER CACHING ( OFFLINE ACCESS)  ] ---> [  ADVANCED CACHING STRATEGIES ] ---> [  CACHING DYNAMIC DATA WITHINDEXEDDB ]
+
+        ----> [ RESPONSIVE DESIGN ] ---> [ BACKGROUND SYNC ]  ---> [ WEB PUSH NOTIFICATION ] ---->  [ MEDIA API ( CAMERA) & GEOLOCATION ]
+
+            --->  [  AUTOMATED SW MANAGEMENT ] --->  [ SPAs & PWAd WITH YOU #1 FRAMEWORK ]
+
+
+>>>>> [ COURSE PROJECT SETUP]
+    - package Json 
+    -
+
+            
+
